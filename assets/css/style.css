@@ -1,9 +1,9 @@
 * {
     box-sizing: border-box;
 }
-html {
-    background: url(img_intersection.png) no-repeat center fixed;
-    background-size: cover;
+body {
+    background-image: url(../images/intersection.png);
+    height: 100%;
 }
 h1 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
@@ -21,26 +21,30 @@ p {
     width: 380px;
     padding: 25px;
     margin: 25px 25px 25px 100px;
-    z-index: 1;
     float: left;
 }
 .about {
     float: left;
-    padding: 45px 25px 5px 300px;
+    padding: 10px 25px 5px 300px;
     border-right: 2px solid #dddddd;
+    margin: 50px 5px 5px 5px;
 }
 .portfolio {
     float: left;
-    padding: 45px 25px 5px 10px;
+    padding: 10px 25px 5px 10px;
+    margin: 50px 5px 5px 5px;
 }
 .contact {
     float: left;
-    padding: 45px 25px 5px 10px;
+    padding: 10px 25px 5px 10px;
     border-left: 2px solid #dddddd;
+    margin: 50px 5px 5px 5px;
 }
-.container {
-    background: url(img_intersection.png);
-    padding: 50px 50px 200px 50px;
+.info {
+    padding: 50px 50px 100px 50px;
+    border: solid 2px #dddddd;
+    background-color: #ffffff;
+    margin: 25px;
 
 }
 .h2 {
@@ -75,6 +79,13 @@ input {
     display: inline-block;
     font-size: 16px;
     margin: 25px 25px 200px 50px;
+}
+.content {
+    float: left;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 25px 25px 25px 50px;
+    border: solid 2px #dddddd;
 }
 .footer {
     clear: both;
